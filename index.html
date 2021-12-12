@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fantastic Fungi</title>
+    <link rel="stylesheet" href="pages/index.css" />
+    <meta
+      name="description"
+      content=""
+    />
+    <meta name="keywords" content="html, css" />
+    <meta name="author" content="" />
+  </head>
+  <body style="background-color: #2a2c2f;">
+    <div class="page">
+      <header class="header">
+        
+      </header>
+        <section class="lead" id="title">
+          <h1 class="lead__title">Fantastic Fungi</h1>
+          <p class="lead__subtitle">
+            Against Petroleum-based Waste
+          </p>
+          <p class="lead__subtitle">
+            What would you like to watch?
+          </p>
+        </section>
+      <section class="video" id="main">
+          <div class="video__container">
+            <span
+                    id="first"
+                    class="video__item"
+                    onclick="showMainFirst();"
+            >
+              <iframe src="https://drive.google.com/file/d/10Ctgc4V7-MdBlbgOxDW_AwREFNpe03J3/preview" width="640" height="480" allow="autoplay"></iframe>
+              <div class="video__text">
+                <h3 class="video__title">Amazon river</h3>
+              </div>
+            </span>
+            <span
+              id="second"
+              class="video__item"
+              onclick="showMainSecond();"
+            >
+              <iframe src="https://drive.google.com/file/d/12pSbigMsfQtQ4gsQGB4qu2CtamoGAAGp/preview" width="640" height="480" allow="autoplay"></iframe>
+              <div class="video__text">
+                <h3 class="video__title">Ocean plastic</h3>
+              </div>
+            </span>
+          </div>
+        </section>
+      <main class="content">
+        <section class="lead">
+          <figure class="lead__container" id="s1" style="display: none;">
+            <video id="s1video" controls width="100%">
+              <source src="https://tochnonet.ru/story1.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <figure class="lead__container" id="s2" style="display: none;">
+            <video id="s2video" controls width="100%">
+              <source src="https://tochnonet.ru/story2.mp4" type="video/mp4">
+            </video>
+          </figure>
+
+          <figure class="lead__container" id="s11" style="display: none;">
+            <video id="s11video" controls width="100%">
+              <source src="https://tochnonet.ru/story12.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <figure class="lead__container" id="s12" style="display: none;">
+            <video id="s12video" controls width="100%">
+              <source src="https://tochnonet.ru/story13.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <figure class="lead__container" id="s13" style="display: none;">
+            <video id="s13video" controls width="100%">
+              <source src="https://tochnonet.ru/story14.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <figure class="lead__container" id="s14" style="display: none;">
+            <video id="s14video" controls width="100%">
+              <source src="https://tochnonet.ru/story15.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <figure class="lead__container" id="s15" style="display: none;">
+            <video id="s15video" controls width="100%">
+              <source src="https://tochnonet.ru/story16.mp4" type="video/mp4">
+            </video>
+          </figure>
+
+          <figure class="lead__container" id="s21" style="display: none;">
+            <video id="s21video" controls width="100%">
+              <source src="https://tochnonet.ru/story22.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <figure class="lead__container" id="s22" style="display: none;">
+            <video id="s22video" controls width="100%">
+              <source src="https://tochnonet.ru/story23.mp4" type="video/mp4">
+            </video>
+          </figure>
+          <figure class="lead__container" id="s23" style="display: none;">
+            <video id="s23video" controls width="100%">
+              <source src="https://tochnonet.ru/storyfinal.mp4" type="video/mp4">
+            </video>
+          </figure>
+
+        </section>
+        <section class="photo-grid" id="buttonFirst" style="display: none;">
+          <div class="photo-grid__wrapper">
+            <span onclick="s11video();" class="places__url link">Keep it as it is</span>
+          </div>
+          <div class="photo-grid__wrapper">
+            <span onclick="s12video();" class="places__url link">Floating devices</span>
+          </div>
+          <div class="photo-grid__wrapper">
+            <span onclick="s13video();" class="places__url link">Burning in Situ</span>
+          </div>
+          <div class="photo-grid__wrapper">
+            <span onclick="s14video();" class="places__url link">Dispensers</span>
+          </div>
+          <div class="photo-grid__wrapper">
+            <span onclick="s15video();" class="places__url link">Fungi</span>
+          </div>
+        </section>
+
+        <section class="photo-grid" id="buttonSecond" style="display: none;">
+          <div class="photo-grid__wrapper">
+            <span onclick="s21video();" class="places__url link">Switch to other materials</span>
+          </div>
+          <div class="photo-grid__wrapper">
+            <span onclick="s22video();" class="places__url link">Excavate all Garbage Patches</span>
+          </div>
+          <div class="photo-grid__wrapper">
+            <span onclick="s23video();" class="places__url link">Fungi</span>
+          </div>
+
+        </section>
+      </main>
+      <footer class="footer">
+
+      </footer>
+    </div>
+  <script src="./index.js"></script>
+  </body>
+</html>
