@@ -1,0 +1,36 @@
+.video__bg-image {
+  height: 323px;
+  width: 100%;
+  border-radius: 5px;
+  position: absolute;
+}
+
+@media screen and (max-width: 1280px) {
+  .video__bg-image {
+    height: 25.313vw;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .video__bg-image {
+    height: 28.125vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__bg-image {
+    height: 26.042vw;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .video__bg-image {
+    height: 53.305vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__bg-image {
+    height: 60vw;
+  }
+}

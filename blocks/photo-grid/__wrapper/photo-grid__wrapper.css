@@ -1,0 +1,5 @@
+.photo-grid__wrapper {
+  width: 100%;
+  padding-bottom: calc(188 * 100% / 284);
+  position: relative;
+}

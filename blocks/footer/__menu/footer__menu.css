@@ -1,0 +1,29 @@
+.footer__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  grid-column-gap: 18px;
+  justify-items: start;
+  align-items: end;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__menu {
+    grid-template-columns: min-content;
+    grid-template-rows: repeat(5, min-content);
+    grid-row-gap: 2rem;
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1020px) {
+  .footer__menu {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}

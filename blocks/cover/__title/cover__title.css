@@ -1,0 +1,46 @@
+.cover__title {
+    width: 90%;
+    margin: 23% auto 0;
+    font-size: 4.5rem;
+    line-height: 4.8rem;
+    font-weight: 900;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 3;
+    align-self: start;
+  }
+
+  @media screen and (max-width: 1166px) {
+    .cover__title {
+      margin: 20% auto 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .cover__title {
+      margin: auto;
+      font-size: 9.375vw;
+      line-height: 10.15vw;
+    }
+  }
+
+
+  @media screen and (max-width: 639px) {
+    .cover__title {
+      margin-top: 25%;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .cover__title {
+      font-size: 2rem;
+      line-height: 2.1rem;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin-top: 20%;
+  }
+}

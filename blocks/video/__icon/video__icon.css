@@ -1,0 +1,7 @@
+.video__icon {
+  width: 41px;
+  height: 41px;
+  background-image: url('../../../images/video/icon_play.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}

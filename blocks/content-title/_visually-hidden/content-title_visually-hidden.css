@@ -1,0 +1,4 @@
+.content-title_visually-hidden {
+  visibility: hidden;
+  position: absolute;
+}

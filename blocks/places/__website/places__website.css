@@ -1,0 +1,24 @@
+.places__website {
+  margin: 0 0 3.75rem;
+  align-self: end;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__website {
+    margin: 0 0 3.9vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__website {
+    margin: 0 0 2.5rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .places__website {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.places__url {
+  margin: 0;
+  color: #000;
+  font-size: 21px;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+  padding: 12px;
+  font-weight: 400;
+  cursor: pointer;
+}

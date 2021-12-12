@@ -1,0 +1,17 @@
+.video__text {
+  margin: 0 0 30px 30px;
+  position: relative;
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .video__text {
+    margin: 0 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__text {
+    margin: 0 0 16px 16px;
+  }
+}

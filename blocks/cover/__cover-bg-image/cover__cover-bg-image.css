@@ -1,0 +1,40 @@
+.cover__cover-bg-image {
+  grid-column: 1;
+  grid-row: 1/3;
+  width: 100%;
+  height: 594px;
+  position: relative;
+  background-image: url('../../../images/cover/cover_bg.png');
+  background-size: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__cover-bg-image {
+    height: 46.40625vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__cover-bg-image {
+    height: 54.89vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__cover-bg-image {
+    height: 65.1vw;
+
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .cover__cover-bg-image {
+    height: 72.53vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__cover-bg-image {
+    height: 216px;
+  }
+}
