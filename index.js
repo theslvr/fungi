@@ -1,6 +1,9 @@
 var mainBlock = document.getElementById('main')
 var mainTitle = document.getElementById('title')
 
+var buttonTextFirst = document.getElementById('buttonTextFirst')
+var buttonTextSecond = document.getElementById('buttonTextSecond')
+
 
 function showMainFirst () {
     var show11 = document.getElementById('s1')
@@ -24,30 +27,30 @@ document.getElementById('s2video').addEventListener('ended', function( evt ) {
     showbtn2();
 });
 
-document.getElementById('s21video').addEventListener('ended', function( evt ) {
-    showbtnrepeat('s11video');
+document.getElementById('s11video').addEventListener('ended', function( evt ) {
+    showbtnrepeat('s11');
 });
 document.getElementById('s12video').addEventListener('ended', function( evt ) {
-    showbtnrepeat('s12video');
+    showbtnrepeat('s12');
 });
 document.getElementById('s13video').addEventListener('ended', function( evt ) {
-    showbtnrepeat('s13video');
+    showbtnrepeat('s13');
 });
 document.getElementById('s14video').addEventListener('ended', function( evt ) {
-    showbtnrepeat('s14video');
+    showbtnrepeat('s14');
 });
 document.getElementById('s15video').addEventListener('ended', function( evt ) {
-    showMain('s15video');
+    showMain('s15');
 });
 
 document.getElementById('s21video').addEventListener('ended', function( evt ) {
-    showbtn2repeat('s21video');
+    showbtn2repeat('s21');
 });
 document.getElementById('s22video').addEventListener('ended', function( evt ) {
-    showbtn2repeat('s22video');
+    showbtn2repeat('s22');
 });
 document.getElementById('s23video').addEventListener('ended', function( evt ) {
-    showMain('s23video');
+    showMain('s23');
 });
 
 
@@ -67,6 +70,8 @@ function showMain (string) {
 function showbtn () {
     var buttonFirst = document.getElementById('buttonFirst')
     var hide11 = document.getElementById('s1')
+
+    buttonTextFirst.style.display = 'block';
     hide11.style.display = 'none';
     buttonFirst.style.display = 'grid';
 }
@@ -74,6 +79,8 @@ function showbtn () {
 function showbtn2 () {
     var buttonSecond = document.getElementById('buttonSecond')
     var hide21 = document.getElementById('s2')
+
+    buttonTextSecond.style.display = 'block';
     hide21.style.display = 'none';
     buttonSecond.style.display = 'grid';
 }
@@ -81,6 +88,8 @@ function showbtn2 () {
 function showbtnrepeat (string) {
     var buttonFirst = document.getElementById('buttonFirst')
     var hide11 = document.getElementById(string)
+
+    buttonTextFirst.style.display = 'block';
     hide11.style.display = 'none';
     buttonFirst.style.display = 'grid';
 }
@@ -88,6 +97,8 @@ function showbtnrepeat (string) {
 function showbtn2repeat (string) {
     var buttonSecond = document.getElementById('buttonSecond')
     var hide21 = document.getElementById(string)
+
+    buttonTextSecond.style.display = 'block';
     hide21.style.display = 'none';
     buttonSecond.style.display = 'grid';
 }
@@ -97,6 +108,7 @@ function s11video () {
     var show11 = document.getElementById('s11')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextFirst.style.display = 'none';
 }
 
 function s12video () {
@@ -104,6 +116,7 @@ function s12video () {
     var show11 = document.getElementById('s12')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextFirst.style.display = 'none';
 }
 
 function s13video () {
@@ -111,6 +124,7 @@ function s13video () {
     var show11 = document.getElementById('s13')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextFirst.style.display = 'none';
 }
 
 function s14video () {
@@ -118,6 +132,7 @@ function s14video () {
     var show11 = document.getElementById('s14')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextFirst.style.display = 'none';
 }
 
 function s15video () {
@@ -125,6 +140,7 @@ function s15video () {
     var show11 = document.getElementById('s15')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextFirst.style.display = 'none';
 }
 
 function s21video () {
@@ -132,6 +148,7 @@ function s21video () {
     var show11 = document.getElementById('s21')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextSecond.style.display = 'none';
 }
 
 function s22video () {
@@ -139,6 +156,7 @@ function s22video () {
     var show11 = document.getElementById('s22')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextSecond.style.display = 'none';
 }
 
 function s23video () {
@@ -146,4 +164,5 @@ function s23video () {
     var show11 = document.getElementById('s23')
     show11.style.display = 'block';
     buttonFirst.style.display = 'none';
+    buttonTextSecond.style.display = 'none';
 }
